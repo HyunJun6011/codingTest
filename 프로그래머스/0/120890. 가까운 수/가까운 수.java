@@ -17,7 +17,7 @@ class Solution {
                 min = diff;
                 answer = key;
             } else if (diff == min) {
-                Math.min(answer, key);
+                answer = Math.min(answer, key);
             }
         }
         return answer;
